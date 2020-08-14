@@ -1,0 +1,24 @@
+{
+  "name": "grc-password-gen",
+  "version": "1.0.0",
+  "description": "Generates \"Perfect Passwords\" via web scraping from Gibson Research Corporation (GRC)'s ultra high security password generator.",
+  "main": "crawler.js",
+  "scripts": {
+    "generate": "node crawler.js > passwords.txt"
+  },
+  "author": "Connor Dillon",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connoro7/tokru-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/connoro7/tokru-2/issues"
+  },
+  "homepage": "https://github.com/connoro7/tokru-2#readme"
+}
