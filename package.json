@@ -4,7 +4,7 @@
   "description": "Generates \"Perfect Passwords\" via web scraping from Gibson Research Corporation (GRC)'s ultra high security password generator.",
   "main": "crawler.js",
   "scripts": {
-    "generate": "node crawler.js > passwords.txt"
+    "generate": "node crawler.js > passwords.txt && echo >> passwords.txt && date >> passwords.txt"
   },
   "author": "Connor Dillon",
   "license": "MIT",
