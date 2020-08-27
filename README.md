@@ -20,8 +20,11 @@ Documentation from GRC on their password generator can be found here: [https://w
 
 1. Clone this repo to a project folder
 2. Install packages via `npm`: `$ npm i`
-3. Run the script with `$ node run generate`
-4. The passwords will output to passwords.txt in your project directory - you will find them there and can freely do with them as you please.
+
+## Usage
+
+1. Run the script with `$ npm run generate`
+2. The passwords will output to passwords.txt in your project directory - you will find them there and can freely do with them as you please.
 
 ## Usage
 
