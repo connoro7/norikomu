@@ -28,7 +28,7 @@ Documentation from GRC on their password generator can be found here: [https://w
 1. Run the script with `$ npm run generate`
 2. The passwords will output to passwords.txt in your project directory - you will find them there and can freely do with them as you please.
 
-## Usage
+### Please note:
 
 - Adjust how many passwords are generated each time you run the script by changing `passwordCount` at the top of `crawler.js`
 - ❗️**Please be gentle to the server**❗️ - I did not place any wait times between HTTP requests. Limit `passwordCount` to 50 or less.
