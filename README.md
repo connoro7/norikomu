@@ -1,6 +1,6 @@
 # GRC "Maximum Entropy" Password Generator
 
-![License](https://img.shields.io/github/license/connoro7/tokru-2?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/connoro7/tokru-2?style=for-the-badge)[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+![License](https://img.shields.io/github/license/connoro7/tokru-2?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/connoro7/tokru-2?style=for-the-badge) 
 
 Generates "Perfect Passwords" via web scraping from Gibson Research Corporation (GRC)'s ultra high security password generator.
 
@@ -38,5 +38,4 @@ Documentation from GRC on their password generator can be found here: [https://w
 - [Cheerio.js](https://cheerio.js.org/)
 - [Axios](https://github.com/axios/axios)
 
-
-
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)] [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
