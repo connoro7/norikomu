@@ -1,5 +1,7 @@
 # GRC "Maximum Entropy" Password Generator
 
+
+
 Generates "Perfect Passwords" via web scraping from Gibson Research Corporation (GRC)'s ultra high security password generator.
 
 Documentation from GRC on their password generator can be found here: [https://www.grc.com/passwords.htm](https://www.grc.com/passwords.htm)
@@ -35,3 +37,6 @@ Documentation from GRC on their password generator can be found here: [https://w
 
 - [Cheerio.js](https://cheerio.js.org/)
 - [Axios](https://github.com/axios/axios)
+
+[![License](https://img.shields.io/github/license/connoro7/tokru-2?style=for-the-badge)][![Last Commit](https://img.shields.io/github/last-commit/connoro7/tokru-2?style=for-the-badge)]
+
