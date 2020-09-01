@@ -6,7 +6,7 @@ const cheerio = require('cheerio')
  * Please be gentle to the server, I did not place any wait times between HTTP requests. Limit passwordCount to 50 or below.
  * GRC's site is an invaluable tool for computer security and encryption! Don't overload their servers!
  */
-let passwordCount = 10
+let passwordCount = 2
 
 const getAsciiPassword = async () => {
   try {
@@ -24,6 +24,7 @@ const getAsciiPassword = async () => {
     throw error
   }
 }
+
 for (let i = 0; i < passwordCount; i++) {
-  getAsciiPassword().then((asciiPassword) => console.log(asciiPassword))
+  getAsciiPassword().then((asciiPassword) => console.log(asciiPassword.toString()))
 }
