@@ -1,0 +1,66 @@
+@import 'reset.scss';
+
+/** Global Color Palette */
+:root {
+  --blue-dark: #0062e6;
+  --blue-light: #33aeff;
+  --yellow-light: #fcad26;
+  --yellow-med: #f29e0d;
+  --yellow-dark: #f58500;
+  --grey-dark: #1f1f1f;
+  --grey-med-dark: #2f2f2f;
+  --grey-med: #3f3f3f;
+  --grey-med-light: #4f4f4f;
+  --grey-light: #5f5f5f;
+  --grey-extra-light: #8f8f8f;
+  --cancel-red: #da2632;
+  --submit-green: #8cda26;
+  --white: #ffffff;
+  --black: #000000;
+  --dim-overlay: rgba(255, 255, 255, 0.1);
+  --text-primary: #1f1f1f;
+  --text-secondary: #2f2f2f;
+}
+
+/** Global Variables */
+:root {
+  /* Set global fonts to protect against failed font delivery from CDN */
+  font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+$footer-height: 60px;
+$header-font-size: 2rem;
+$font-primary: 'Press Start 2P', 'Lucida Console', Monaco, monospace; /* For titles, headers, and other primary text content */
+$font-secondary: 'Russo One', 'Arial Black', Gadget, sans-serif; /* For secondary text content*/
+$font-input: monospace; /* For form input fields only */
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(to right, var(--blue-dark), var(--blue-light));
+  color: var(--text-primary);
+}
+
+body {
+  display: grid;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+@import 'header.scss';
+@import 'container.scss';
+@import 'footer.scss';

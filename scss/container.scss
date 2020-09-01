@@ -1,0 +1,19 @@
+.container {
+  //   width: 80%;
+  display: grid;
+  justify-content: center;
+}
+
+#passwords {
+  text-decoration: none;
+  margin: 2rem;
+}
+
+#passwords > pre {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#passwords > pre:last-child {
+  margin-bottom: 0;
+}
