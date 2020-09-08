@@ -1,0 +1,36 @@
+footer .footer_icons {
+  place-items: center;
+  text-align: center;
+  display: inline;
+}
+
+footer {
+  flex-shrink: none;
+  text-align: center;
+  height: $footer-height;
+}
+
+footer a {
+  color: var(--grey-dark);
+  margin: 5px;
+}
+
+footer a:hover {
+  color: var(--grey-med);
+}
+
+.footer-text {
+  font-size: 12px;
+  line-height: 60px;
+  margin-top: 1rem;
+  // float: center;
+}
+
+footer > div > a > i {
+  transform: scale(2);
+  margin: 10px;
+}
+
+footer > div > a > i:hover {
+  color: var(--text-secondary);
+}

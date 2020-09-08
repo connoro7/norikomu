@@ -1,0 +1,19 @@
+header {
+  margin-top: 5vh;
+  display: grid;
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 6rem;
+    margin: 0;
+  }
+  p {
+    margin-top: 1rem;
+  }
+  p > a {
+    color: #eeeeee;
+  }
+}

@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/** Global Color Palette */
+:root {
+  --blue-dark: #0062e6;
+  --blue-light: #33aeff;
+  --yellow-light: #fcad26;
+  --yellow-med: #f29e0d;
+  --yellow-dark: #f58500;
+  --grey-dark: #1f1f1f;
+  --grey-med-dark: #2f2f2f;
+  --grey-med: #3f3f3f;
+  --grey-med-light: #4f4f4f;
+  --grey-light: #5f5f5f;
+  --grey-extra-light: #8f8f8f;
+  --cancel-red: #da2632;
+  --submit-green: #8cda26;
+  --white: #ffffff;
+  --black: #000000;
+  --dim-overlay: rgba(255, 255, 255, 0.1);
+  --text-primary: #1f1f1f;
+  --text-secondary: #2f2f2f; }
+
+/** Global Variables */
+:root {
+  /* Set global fonts to protect against failed font delivery from CDN */
+  font-family: 'Arial Black', Gadget, sans-serif; }
+
+/* For titles, headers, and other primary text content */
+/* For secondary text content*/
+/* For form input fields only */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  background: linear-gradient(to right, var(--blue-dark), var(--blue-light));
+  color: var(--text-primary); }
+
+body {
+  display: grid;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center; }
+
+a {
+  text-decoration: none;
+  color: var(--white); }
+
+header {
+  margin-top: 5vh;
+  display: grid;
+  text-align: center; }
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+  header h2 {
+    font-size: 6rem;
+    margin: 0; }
+  header p {
+    margin-top: 1rem; }
+  header p > a {
+    color: #eeeeee; }
+
+.container {
+  display: grid;
+  justify-content: center; }
+
+#passwords {
+  text-decoration: none;
+  margin: 2rem; }
+
+#passwords > pre {
+  font-size: 1.2rem;
+  margin-bottom: 1rem; }
+
+#passwords > pre:last-child {
+  margin-bottom: 0; }
+
+footer .footer_icons {
+  place-items: center;
+  text-align: center;
+  display: inline; }
+
+footer {
+  flex-shrink: none;
+  text-align: center;
+  height: 60px; }
+
+footer a {
+  color: var(--grey-dark);
+  margin: 5px; }
+
+footer a:hover {
+  color: var(--grey-med); }
+
+.footer-text {
+  font-size: 12px;
+  line-height: 60px;
+  margin-top: 1rem; }
+
+footer > div > a > i {
+  transform: scale(2);
+  margin: 10px; }
+
+footer > div > a > i:hover {
+  color: var(--text-secondary); }
