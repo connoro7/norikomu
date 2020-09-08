@@ -1,6 +1,6 @@
 # GRC "Maximum Entropy" Password Generator
 
-![License](https://img.shields.io/github/license/connoro7/tokru-2?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/connoro7/tokru-2?style=for-the-badge) 
+![License](https://img.shields.io/github/license/connoro7/norikomu?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/connoro7/norikomu?style=for-the-badge) 
 
 Generates "Perfect Passwords" via web scraping from Gibson Research Corporation (GRC)'s ultra high security password generator.
 
