@@ -1,6 +1,10 @@
-# GRC "Maximum Entropy" Password Generator
+<div align="center">
+<h1>Norikomu</h1><h3>A "Maximum Entropy" Password Generator</h3>
+<img style="border-width:20px; border-style:outset; border-color:#0083ed; border-radius:5px; box-shadow:5px 5px 10px 0px #0083ed;" src='./Docs/README-title-image.jpg'  alt='norikomu header image' valign='middle' /></div>
 
-![License](https://img.shields.io/github/license/connoro7/norikomu?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/connoro7/norikomu?style=for-the-badge) 
+---
+
+![License](https://img.shields.io/github/license/connoro7/norikomu?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/connoro7/norikomu?style=for-the-badge)
 
 Generates "Perfect Passwords" via web scraping from Gibson Research Corporation (GRC)'s ultra high security password generator.
 
@@ -20,10 +24,18 @@ Documentation from GRC on their password generator can be found here: [https://w
 
 ## <img align="left" src="https://img.icons8.com/offices/40/000000/software-installer.png"/> Installation
 
+<div style="font-size: 0.25px;" credit="where-credit-is-due">
+<a href="https://icons8.com/icon/XO6efPaspNuK/software-installer">Software Installer icon by Icons8</a>, 
+</div>
+
 1. Clone this repo to a project folder
 2. Install packages via `npm`: `$ npm i`
 
 ## <img align="left" src="https://img.icons8.com/offices/40/000000/sports-mode.png"/> Usage
+
+<div style="font-size: 0.25px;" credit="where-credit-is-due">
+<a href="https://icons8.com/icon/PeTQ5P4IFsq-/sports-mode">Sports Mode icon by Icons8</a>
+</div>
 
 1. Run the script with `$ npm run generate`
 2. The passwords will output to passwords.txt in your project directory - you will find them there and can freely do with them as you please.
@@ -37,5 +49,3 @@ Documentation from GRC on their password generator can be found here: [https://w
 
 - [Cheerio.js](https://cheerio.js.org/)
 - [Axios](https://github.com/axios/axios)
-- <a href="https://icons8.com/icon/XO6efPaspNuK/software-installer">Software Installer icon by Icons8</a>
-- <a href="https://icons8.com/icon/PeTQ5P4IFsq-/sports-mode">Sports Mode icon by Icons8</a>
