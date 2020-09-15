@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Norikomu</h1><h3>A "Maximum Entropy" Password Generator</h3>
-<img style="border-width:20px; border-style:outset; border-color:#0083ed; border-radius:5px; box-shadow:5px 5px 10px 0px #0083ed;" src='./Docs/README-title-image.jpg'  alt='norikomu header image' valign='middle' /></div>
+<img src='./Docs/README-title-image.jpg'  alt='norikomu header image' valign='middle' /></div>
 
 ---
 
@@ -22,20 +22,12 @@ Documentation from GRC on their password generator can be found here: [https://w
 >
 > Therefore, these password strings are just for you. No one else can ever see them or get them. You may safely take these strings as they are, or use chunks from several to build your own if you prefer, or do whatever you want with them. Each set displayed are totally, uniquely yours — forever.
 
-## <img align="left" src="https://img.icons8.com/offices/40/000000/software-installer.png"/> Installation
-
-<div style="font-size: 0.25px;" credit="where-credit-is-due">
-<a href="https://icons8.com/icon/XO6efPaspNuK/software-installer">Software Installer icon by Icons8</a>, 
-</div>
+## Installation
 
 1. Clone this repo to a project folder
 2. Install packages via `npm`: `$ npm i`
 
-## <img align="left" src="https://img.icons8.com/offices/40/000000/sports-mode.png"/> Usage
-
-<div style="font-size: 0.25px;" credit="where-credit-is-due">
-<a href="https://icons8.com/icon/PeTQ5P4IFsq-/sports-mode">Sports Mode icon by Icons8</a>
-</div>
+## Usage
 
 1. Run the script with `$ npm run generate`
 2. The passwords will output to passwords.txt in your project directory - you will find them there and can freely do with them as you please.
